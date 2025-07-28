@@ -50,6 +50,7 @@ const submitLoginDetails=()=>{
                     required
                 />
             </div>
+            <br/>
             <button class="auth-login-main-ctn-form-input-and-label-ctn-submit-btn">
                 Login
             </button>
@@ -85,6 +86,10 @@ const submitLoginDetails=()=>{
     border: 0;
 }
 .auth-login-main-ctn-form-input-and-label-ctn-submit-btn{
-    
+    width: 100%;
+    padding: 10px 16px;
+    background-color: #3C2708;
+    color: #fff;
+    font-size: 18px;
 }
 </style>
