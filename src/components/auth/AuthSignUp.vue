@@ -35,4 +35,13 @@ import AuthSignUpType from './AuthSignUpType.vue';
     text-decoration-line: underline;
     font-size: 20px;
 }
+
+@media screen and (max-width: 900px) {
+    .auth-signup-main-ctn-title{
+        font-size: 12px;
+    }
+    .auth-signup-main-ctn-email-type-ctn-desc{
+        font-size: 16px;
+    }
+}
 </style>
