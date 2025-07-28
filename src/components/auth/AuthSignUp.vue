@@ -1,10 +1,16 @@
+<script setup>
+import AuthSignUpType from './AuthSignUpType.vue';
+
+
+</script>
+
 <template>
     <div class="auth-signup-main-ctn">
         <h3 class="auth-signup-main-ctn-title">
             or sign up using
         </h3>
         <div class="auth-signup-mini-ctn">
-
+            <AuthSignUpType></AuthSignUpType>
         </div>
         <div class="auth-signup-main-ctn-email-type-ctn">
             <p class="auth-signup-main-ctn-email-type-ctn-desc">
