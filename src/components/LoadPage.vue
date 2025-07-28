@@ -1,6 +1,12 @@
+<script setup>
+
+</script>
+
 <template>
     <div class="load-page-main-ctn">
+        <div class="load-page-mini-ctn">
 
+        </div>
     </div>
 </template>
 
