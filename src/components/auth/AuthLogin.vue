@@ -7,7 +7,7 @@ const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
 
 const submitLoginDetails=()=>{
     if (((email.value==="") || (password.value===""))||((email.value==="") && (password.value===""))){
-        
+        inputCtnBorderAlertStyle.value="1px solid red";
     }
 }
 </script>
@@ -50,6 +50,9 @@ const submitLoginDetails=()=>{
                     required
                 />
             </div>
+            <button class="auth-login-main-ctn-form-input-and-label-ctn-submit-btn">
+                Login
+            </button>
         </form>
     </div>
 </template>
@@ -80,5 +83,8 @@ const submitLoginDetails=()=>{
     padding: 0 10px;
     font-size:16px;
     border: 0;
+}
+.auth-login-main-ctn-form-input-and-label-ctn-submit-btn{
+    
 }
 </style>
