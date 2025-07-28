@@ -1,9 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
-const inputCtnBorderAlertStyle=ref('1px solid hsl(36, 76%, 13%)');
-const namePositionPlacement=ref("50%");
-
+const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
 </script>
 
 <template>
@@ -14,35 +12,22 @@ const namePositionPlacement=ref("50%");
         <br/>
         <form action="" class="auth-login-main-ctn-form">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
-                <input 
-                    v-model="email" 
-                    id="email" 
-                    type="email" 
-                    :style="{borderBottom: inputCtnBorderAlertStyle}" 
-                    required
-                />
                 <label 
-                    for="email" 
+                    for="" 
                     class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
                 >
                     Username
                 </label>
-            </div>
-            <br/>
-            <div class="auth-login-main-ctn-form-input-and-label-ctn">
                 <input 
-                    v-model="password" 
-                    id="password" 
-                    type="password" 
+                    v-model="email" 
+                    id="" 
+                    type="" 
                     :style="{borderBottom: inputCtnBorderAlertStyle}" 
                     required
                 />
-                <label 
-                    for="password" 
-                    class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
-                >
-                    Password
-                </label>
+            </div>
+            <div class="auth-login-main-ctn-form-input-and-label-ctn">
+                
             </div>
         </form>
     </div>
@@ -51,7 +36,7 @@ const namePositionPlacement=ref("50%");
 .auth-login-main-ctn-title{
     text-transform: uppercase;
     text-align: center;
-    color: hsl(36, 76%, 13%);
+    color: #3C2708;
     font-family: "Michroma", sans-serif;
     font-size:34px;
     font-weight: 600;
@@ -61,22 +46,18 @@ const namePositionPlacement=ref("50%");
     flex-direction: column;
 }
 .auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name{
-    position:absolute;
-    font-size:2vh;
-    color:rgb(0, 0, 0);
-    font-weight:400;
-    transform: translateY(-50%);
-    transition: all .5s;
+    color:#6a6a6a;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
 }
 .auth-login-main-ctn-form-input-and-label-ctn input{
-    background: transparent;
-    color:transparent;
-    margin-right:0;
+    background-color: transparent;
     width:100%;
-    height:100%;
-    outline:0;
-    border:0;
-    font-size:2vh;
-    padding: 2px 10px;
+    height:40px;
+    padding:4px;
+    font-size:20px;
+    border: 0;
 }
 </style>
