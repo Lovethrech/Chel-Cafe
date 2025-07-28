@@ -2,6 +2,8 @@
 import {ref} from "vue";
 
 const inputCtnBorderAlertStyle=ref('1px solid hsl(36, 76%, 13%)');
+const namePositionPlacement=ref("50%");
+
 </script>
 
 <template>
@@ -16,7 +18,7 @@ const inputCtnBorderAlertStyle=ref('1px solid hsl(36, 76%, 13%)');
                     v-model="email" 
                     id="email" 
                     type="email" 
-                    :style="{borderBottom: inputCtnBorderAlertStyle}" 
+                    :style="{borderBottom: inputCtnBorderAlertStyle, top: namePositionPlacement}" 
                     required
                 />
                 <label 
