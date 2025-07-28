@@ -11,6 +11,6 @@
     color: #3C2708;
     font-family: "Michroma", sans-serif;
     font-size:40px;
-    font-weight: 900;
+    font-weight: 800;
 }
 </style>
