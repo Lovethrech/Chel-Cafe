@@ -1,6 +1,8 @@
 <script setup>
 import {ref} from "vue";
 
+const email=ref("");
+const password=ref("");
 const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
 </script>
 
@@ -70,7 +72,7 @@ const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
     width:100%;
     height:40px;
     padding: 0 10px;
-    font-size:20px;
+    font-size:16px;
     border: 0;
 }
 </style>
