@@ -26,4 +26,11 @@ import AuthLogin from './AuthLogin.vue';
     height:50%;
     padding:3vh 4vw;
 }
+
+@media screen and (max-width: 900px) {
+    .auth-mini-ctn{
+        width:70%;
+        height:66%;
+    }
+}
 </style>

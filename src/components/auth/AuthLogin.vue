@@ -77,7 +77,6 @@ const submitLoginDetails=()=>{
     color:#6a6a6a;
     font-size:14px;
     font-weight: 400;
-    letter-spacing: 0.25px;
     text-transform: capitalize;
 }
 .auth-login-main-ctn-form-input-and-label-ctn input{
@@ -102,5 +101,11 @@ const submitLoginDetails=()=>{
     border: 1px solid #3C2708;
     transform: scale(0.98);
     transition: all .4s;
+}
+
+@media screen and (max-width: 900px) {
+    .auth-login-main-ctn-title{
+        font-size: 22px;
+    }
 }
 </style>
