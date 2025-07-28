@@ -4,6 +4,12 @@ import {ref} from "vue";
 const email=ref("");
 const password=ref("");
 const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
+
+const submitLoginDetails=()=>{
+    if (((email.value==="") || (password.value===""))||((email.value==="") && (password.value===""))){
+        
+    }
+}
 </script>
 
 <template>
