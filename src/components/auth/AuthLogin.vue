@@ -18,7 +18,7 @@ const namePositionPlacement=ref("50%");
                     v-model="email" 
                     id="email" 
                     type="email" 
-                    :style="{borderBottom: inputCtnBorderAlertStyle, top: namePositionPlacement}" 
+                    :style="{borderBottom: inputCtnBorderAlertStyle}" 
                     required
                 />
                 <label 
