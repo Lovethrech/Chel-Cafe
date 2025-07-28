@@ -39,7 +39,7 @@ const inputCtnBorderAlertStyle=ref('1px solid hsl(36, 76%, 13%)');
                     for="password" 
                     class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
                 >
-                    Username
+                    Password
                 </label>
             </div>
         </form>
