@@ -8,6 +8,7 @@ import AuthSignUp from './AuthSignUp.vue';
         <div class="auth-mini-ctn">
             <AuthLogin></AuthLogin>
             <br/>
+            <br/>
             <AuthSignUp></AuthSignUp>
         </div>
     </div>
