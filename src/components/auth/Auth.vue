@@ -5,7 +5,7 @@ import AuthLogin from './AuthLogin.vue';
 <template>
     <div class="auth-main-ctn">
         <div class="auth-mini-ctn">
-
+            <AuthLogin></AuthLogin>
         </div>
     </div>
 </template>
