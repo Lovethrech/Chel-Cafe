@@ -12,9 +12,8 @@ const inputCtnBorderAlertStyle=ref('3px solid red');
         <br/>
         <form action="" class="auth-login-main-ctn-form">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
-                <label for="" class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name">Username</label>
                 <input v-model="email" id="" type="" :style="{border: inputCtnBorderAlertStyle}" required/>
-                
+                <label for="" class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name">Username</label>
             </div>
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
                 
@@ -36,17 +35,22 @@ const inputCtnBorderAlertStyle=ref('3px solid red');
     flex-direction: column;
 }
 .auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name{
-    color:#6a6a6a;
-    font-size:12px;
-    font-weight: 400;
-    letter-spacing: 0.25px;
-    text-transform: capitalize;
+    position:absolute;
+    font-size:2vh;
+    color:white;
+    font-weight:400;
+    transform: translateY(-50%);
+    transition: all .5s;
 }
 .auth-login-main-ctn-form-input-and-label-ctn input{
+    background: transparent;
+    color:rgb(209, 207, 207);
+    margin-right:0;
     width:100%;
-    height:40px;
-    padding:4px;
-    font-size:20px;
-    border-radius: 8px;
+    height:100%;
+    outline:0;
+    border:0;
+    font-size:2vh;
+    padding: 2px 10px;
 }
 </style>
