@@ -1,11 +1,11 @@
 <script setup>
-
+import LoadPageText from './LoadPageText.vue';
 </script>
 
 <template>
     <div class="load-page-main-ctn">
         <div class="load-page-mini-ctn">
-
+            <LoadPageText></LoadPageText>
         </div>
     </div>
 </template>
