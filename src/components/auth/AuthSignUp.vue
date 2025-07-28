@@ -24,14 +24,15 @@ import AuthSignUpType from './AuthSignUpType.vue';
 .auth-signup-main-ctn{
     text-align: center;
 }
+.auth-signup-main-ctn-title, .auth-signup-main-ctn-email-type-ctn-desc{
+    text-transform: capitalize;
+}
 .auth-signup-main-ctn-title{
     color:#a3a3a3;
-    text-transform: capitalize;
     font-size: 14px;
 }
 .auth-signup-main-ctn-email-type-ctn-desc{
     color:#000000;
-    text-transform: capitalize;
     text-decoration-line: underline;
     font-size: 20px;
 }
