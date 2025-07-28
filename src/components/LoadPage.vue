@@ -16,5 +16,8 @@ import LoadPageText from './LoadPageText.vue';
     height: 100vh;
     background:  url(/LoadPageTopLeaf.png) top right / 100px no-repeat, 
         url(/LoadPageBottomLeaf.png) bottom left / 100px no-repeat ;
+    display:flex;
+    justify-content: center;
+    place-items: center;
 }
 </style>
