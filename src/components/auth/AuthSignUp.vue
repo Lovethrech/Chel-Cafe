@@ -17,3 +17,12 @@ import AuthSignUpType from './AuthSignUpType.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.auth-signup-main-ctn{
+    text-align: center;
+}
+.auth-signup-main-ctn-title{
+    text-transform: capitalize;
+}
+</style>
