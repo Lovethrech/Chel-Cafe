@@ -26,6 +26,7 @@ const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
                     required
                 />
             </div>
+            <br/>
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
                 <label 
                     for="password" 
@@ -68,7 +69,7 @@ const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
     background-color: transparent;
     width:100%;
     height:40px;
-    padding:4px;
+    padding: 0 10px;
     font-size:20px;
     border: 0;
 }
