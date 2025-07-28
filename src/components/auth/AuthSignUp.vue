@@ -1,3 +1,15 @@
 <template>
-    
+    <div class="auth-signup-main-ctn">
+        <h3 class="auth-signup-main-ctn-title">
+            or sign up using
+        </h3>
+        <div class="auth-signup-mini-ctn">
+
+        </div>
+        <div class="auth-signup-main-ctn-email-type-ctn">
+            <p class="auth-signup-main-ctn-email-type-ctn-desc">
+                
+            </p>
+        </div>
+    </div>
 </template>
