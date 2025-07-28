@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
     <div class="auth-main-ctn">
         <div class="auth-mini-ctn">
