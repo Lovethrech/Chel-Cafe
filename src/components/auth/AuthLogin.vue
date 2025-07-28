@@ -11,7 +11,7 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
         </h2>
         <form action="" class="auth-login-main-ctn-form">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
-                <label for="" class="input-ctn-name">Username</label>
+                <label for="" class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name">Username</label>
                 <input v-model="email" id="" type="" :style="{border: inputCtnBorderAlertStyle}" required/>
                 
             </div>
@@ -29,5 +29,9 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
     font-family: "Michroma", sans-serif;
     font-size:34px;
     font-weight: 600;
+}
+.auth-login-main-ctn-form-input-and-label-ctn{
+    display:flex;
+    flex-direction: column;
 }
 </style>
