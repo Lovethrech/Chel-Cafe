@@ -24,6 +24,6 @@ import AuthLogin from './AuthLogin.vue';
     background-color: #e0dcdc;
     width:50%;
     height:50%;
-    padding:16px;
+    padding:3vh 4vw;
 }
 </style>
