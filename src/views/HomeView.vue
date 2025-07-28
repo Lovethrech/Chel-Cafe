@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import LoadPage from '@/components/LoadPage.vue';
 
+
 const showComponent = ref(true)
 let timeoutId = null
 onMounted(() => {
