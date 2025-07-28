@@ -1,11 +1,13 @@
 <script setup>
 import AuthLogin from './AuthLogin.vue';
+import AuthSignUp from './AuthSignUp.vue';
 </script>
 
 <template>
     <div class="auth-main-ctn">
         <div class="auth-mini-ctn">
             <AuthLogin></AuthLogin>
+            <AuthSignUp></AuthSignUp>
         </div>
     </div>
 </template>
