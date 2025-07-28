@@ -8,7 +8,7 @@
         </div>
         <div class="auth-signup-main-ctn-email-type-ctn">
             <p class="auth-signup-main-ctn-email-type-ctn-desc">
-                
+                sign up with email
             </p>
         </div>
     </div>
