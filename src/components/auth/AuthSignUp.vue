@@ -23,6 +23,8 @@ import AuthSignUpType from './AuthSignUpType.vue';
     text-align: center;
 }
 .auth-signup-main-ctn-title{
+    color:#aca9a9;
     text-transform: capitalize;
+    font-size: 14px;
 }
 </style>
