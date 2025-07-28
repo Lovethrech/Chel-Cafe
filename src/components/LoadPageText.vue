@@ -8,6 +8,9 @@
 
 <style scoped>
 .load-page-text-main-ctn-header{
+    color: #3C2708;
     font-family: "Michroma", sans-serif;
+    font-size:40px;
+    font-weight: 900;
 }
 </style>
