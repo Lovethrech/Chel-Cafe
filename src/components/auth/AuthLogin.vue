@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
-const inputCtnBorderAlertStyle=ref('3px solid #ededed');
+const inputCtnBorderAlertStyle=ref('3px solid red');
 </script>
 
 <template>
@@ -9,6 +9,7 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
         <h2 class="auth-login-main-ctn-title">
             Login
         </h2>
+        <br/>
         <form action="" class="auth-login-main-ctn-form">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
                 <label for="" class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name">Username</label>
@@ -33,5 +34,19 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 .auth-login-main-ctn-form-input-and-label-ctn{
     display:flex;
     flex-direction: column;
+}
+.auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name{
+    color:#6a6a6a;
+    font-size:12px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+}
+.auth-login-main-ctn-form-input-and-label-ctn input{
+    width:100%;
+    height:40px;
+    padding:4px;
+    font-size:20px;
+    border-radius: 8px;
 }
 </style>
