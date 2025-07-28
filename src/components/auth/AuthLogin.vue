@@ -24,6 +24,7 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 <style scoped>
 .auth-login-main-ctn-title{
     text-transform: uppercase;
+    text-align: center;
     color: #3C2708;
     font-family: "Michroma", sans-serif;
     font-size:34px;
