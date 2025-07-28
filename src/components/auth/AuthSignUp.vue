@@ -1,7 +1,5 @@
 <script setup>
 import AuthSignUpType from './AuthSignUpType.vue';
-
-
 </script>
 
 <template>
