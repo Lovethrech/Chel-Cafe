@@ -8,6 +8,6 @@
 .load-page-main-ctn{
     width:100%;
     height: 100vh;
-    background-color: red;
+    background: red url(/LoadPageTopLeaf.png);
 }
 </style>
