@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
-const inputCtnBorderAlertStyle=ref('3px solid red');
+const inputCtnBorderAlertStyle=ref('3px solid #000');
 </script>
 
 <template>
