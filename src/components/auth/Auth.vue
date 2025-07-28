@@ -21,7 +21,7 @@ import AuthLogin from './AuthLogin.vue';
     place-items: center;
 }
 .auth-mini-ctn{
-    background-color: #e0dcdc;
+    background-color: #f0eeee;
     width:50%;
     height:50%;
     padding:3vh 4vw;
