@@ -1,6 +1,8 @@
 <script setup>
 import {ref} from "vue";
+import { useRouter } from "vue-router";
 
+const router=useRouter();
 const email=ref("");
 const password=ref("");
 const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
@@ -8,6 +10,9 @@ const inputCtnBorderAlertStyle=ref('1px solid #3C2708');
 const submitLoginDetails=()=>{
     if (((email.value==="") || (password.value===""))||((email.value==="") && (password.value===""))){
         inputCtnBorderAlertStyle.value="1px solid red";
+    }
+    else{
+        router.push('/home')
     }
 }
 </script>
