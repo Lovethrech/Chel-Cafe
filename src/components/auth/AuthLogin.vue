@@ -6,6 +6,9 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 
 <template>
     <div class="auth-login-main-ctn">
+        <h2 class="auth-login-main-ctn-title">
+            Login
+        </h2>
         <form action="" class="auth-login-main-ctn-form">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
                 <label for="" class="input-ctn-name">Username</label>
@@ -18,3 +21,12 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
         </form>
     </div>
 </template>
+<style scoped>
+.auth-login-main-ctn-title{
+    text-transform: uppercase;
+    color: #3C2708;
+    font-family: "Michroma", sans-serif;
+    font-size:34px;
+    font-weight: 600;
+}
+</style>
