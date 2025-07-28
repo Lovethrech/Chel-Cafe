@@ -20,4 +20,10 @@ import AuthLogin from './AuthLogin.vue';
     justify-content: center;
     place-items: center;
 }
+.auth-mini-ctn{
+    background-color: #e0dcdc;
+    width:50%;
+    height:50%;
+    padding:16px;
+}
 </style>
