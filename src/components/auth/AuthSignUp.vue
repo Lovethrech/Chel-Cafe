@@ -11,9 +11,11 @@ import AuthSignUpType from './AuthSignUpType.vue';
             <AuthSignUpType></AuthSignUpType>
         </div>
         <div class="auth-signup-main-ctn-email-type-ctn">
-            <p class="auth-signup-main-ctn-email-type-ctn-desc">
-                sign up with email
-            </p>
+            <a href="" class="auth-signup-main-ctn-email-type-ctn-link">
+                <p class="auth-signup-main-ctn-email-type-ctn-desc">
+                    sign up with email
+                </p>
+            </a>
         </div>
     </div>
 </template>
@@ -30,6 +32,7 @@ import AuthSignUpType from './AuthSignUpType.vue';
 .auth-signup-main-ctn-email-type-ctn-desc{
     color:#000000;
     text-transform: capitalize;
+    text-decoration-line: underline;
     font-size: 20px;
 }
 </style>
