@@ -1,5 +1,5 @@
 <script setup>
-
+import AuthLogin from './AuthLogin.vue';
 </script>
 
 <template>
