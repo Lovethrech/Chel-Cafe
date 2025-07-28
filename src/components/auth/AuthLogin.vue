@@ -97,6 +97,7 @@ const submitLoginDetails=()=>{
     background-color: transparent;
     color:#3C2708;
     border: 1px solid #3C2708;
-    transition: all .6s;
+    transform: scale(0.98);
+    transition: all .4s;
 }
 </style>
