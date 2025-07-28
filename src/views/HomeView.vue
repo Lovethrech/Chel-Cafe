@@ -8,7 +8,7 @@ let timeoutId = null
 onMounted(() => {
   timeoutId = setTimeout(() => {
     showComponent.value = false
-  }, 2000) // 2 seconds
+  }, 3000) // 3 seconds
 })
 onUnmounted(() => {
   clearTimeout(timeoutId)
