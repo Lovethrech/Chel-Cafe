@@ -92,4 +92,11 @@ const submitLoginDetails=()=>{
     color: #fff;
     font-size: 18px;
 }
+.auth-login-main-ctn-form-input-and-label-ctn-submit-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:#3C2708;
+    border: 1px solid #3C2708;
+    transition: all .6s;
+}
 </style>
