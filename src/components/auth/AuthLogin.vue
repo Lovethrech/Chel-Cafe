@@ -36,7 +36,6 @@ const submitLoginDetails=()=>{
                     id="email" 
                     type="email" 
                     :style="{borderBottom: inputCtnBorderAlertStyle}" 
-                    required
                 />
             </div>
             <br/>
@@ -52,7 +51,6 @@ const submitLoginDetails=()=>{
                     id="password" 
                     type="password" 
                     :style="{borderBottom: inputCtnBorderAlertStyle}" 
-                    required
                 />
             </div>
             <br/>
