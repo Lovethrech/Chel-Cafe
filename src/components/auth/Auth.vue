@@ -27,14 +27,12 @@ import AuthSignUp from './AuthSignUp.vue';
 .auth-mini-ctn{
     background-color: #f0eeee;
     width:50%;
-    height:50%;
     padding:3vh 4vw;
 }
 
 @media screen and (max-width: 900px) {
     .auth-mini-ctn{
         width:80%;
-        height:66%;
     }
 }
 </style>
