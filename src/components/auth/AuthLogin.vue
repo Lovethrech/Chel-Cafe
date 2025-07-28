@@ -23,7 +23,7 @@ const submitLoginDetails=()=>{
             Login
         </h2>
         <br/>
-        <form action="" class="auth-login-main-ctn-form">
+        <form action="" class="auth-login-main-ctn-form" @submit.prevent="submitLoginDetails">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
                 <label 
                     for="email" 
@@ -56,7 +56,7 @@ const submitLoginDetails=()=>{
                 />
             </div>
             <br/>
-            <button class="auth-login-main-ctn-form-input-and-label-ctn-submit-btn">
+            <button @click="submitLoginDetails" type="submit" class="auth-login-main-ctn-form-input-and-label-ctn-submit-btn">
                 Login
             </button>
         </form>
