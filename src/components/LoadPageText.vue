@@ -8,6 +8,7 @@
 
 <style scoped>
 .load-page-text-main-ctn-header{
+    text-transform: capitalize;
     color: #3C2708;
     font-family: "Michroma", sans-serif;
     font-size:40px;
