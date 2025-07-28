@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 
-const inputCtnBorderAlertStyle=ref('3px solid #000');
+const inputCtnBorderAlertStyle=ref('1px solid hsl(36, 76%, 13%)');
 </script>
 
 <template>
@@ -12,11 +12,35 @@ const inputCtnBorderAlertStyle=ref('3px solid #000');
         <br/>
         <form action="" class="auth-login-main-ctn-form">
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
-                <input v-model="email" id="" type="" :style="{borderBottom: inputCtnBorderAlertStyle}" required/>
-                <label for="" class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name">Username</label>
+                <input 
+                    v-model="email" 
+                    id="email" 
+                    type="email" 
+                    :style="{borderBottom: inputCtnBorderAlertStyle}" 
+                    required
+                />
+                <label 
+                    for="email" 
+                    class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
+                >
+                    Username
+                </label>
             </div>
+            <br/>
             <div class="auth-login-main-ctn-form-input-and-label-ctn">
-                
+                <input 
+                    v-model="password" 
+                    id="password" 
+                    type="password" 
+                    :style="{borderBottom: inputCtnBorderAlertStyle}" 
+                    required
+                />
+                <label 
+                    for="password" 
+                    class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
+                >
+                    Username
+                </label>
             </div>
         </form>
     </div>
@@ -25,7 +49,7 @@ const inputCtnBorderAlertStyle=ref('3px solid #000');
 .auth-login-main-ctn-title{
     text-transform: uppercase;
     text-align: center;
-    color: #3C2708;
+    color: hsl(36, 76%, 13%);
     font-family: "Michroma", sans-serif;
     font-size:34px;
     font-weight: 600;
