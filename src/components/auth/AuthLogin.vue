@@ -82,8 +82,7 @@ const submitLoginDetails=()=>{
 .auth-login-main-ctn-form-input-and-label-ctn input{
     background-color: transparent;
     width:100%;
-    height:40px;
-    padding: 0 10px;
+    padding:5px 10px;
     font-size:16px;
     border: 0;
 }
@@ -106,6 +105,17 @@ const submitLoginDetails=()=>{
 @media screen and (max-width: 900px) {
     .auth-login-main-ctn-title{
         font-size: 22px;
+    }
+    .auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name{
+        font-size: 12px;
+    }
+    .auth-login-main-ctn-form-input-and-label-ctn input{
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .auth-login-main-ctn-form-input-and-label-ctn-submit-btn{
+        padding: 5px 8px;
+        font-size: 16px;
     }
 }
 </style>
