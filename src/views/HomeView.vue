@@ -5,6 +5,5 @@
 </template>
 
 <style scoped>
-main{
 }
 </style>
