@@ -7,6 +7,11 @@ const router = createRouter({
       path: '/',
       name: 'authPage',
       component: () => import('../views/AuthPageView.vue'),
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: () => import('../views/AuthPageView.vue'),
     }
   ]
 })
