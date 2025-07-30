@@ -5,3 +5,7 @@
         </div>
     </a>
 </template>
+
+<style scoped>
+
+</style>
