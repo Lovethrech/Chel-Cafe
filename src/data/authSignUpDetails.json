@@ -13,8 +13,8 @@
     },
     {
         "id":3,
-        "name":"",
-        "src":"",
+        "name":"google signUp",
+        "src":"@/components/Icons/apple.svg",
         "link":""
     }
 ]
