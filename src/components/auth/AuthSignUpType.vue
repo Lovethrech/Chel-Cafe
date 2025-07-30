@@ -8,9 +8,10 @@
 
 <style scoped>
 .auth-sign-up-type-main-ctn{
-
+    width:30px;
 }
 .auth-sign-up-type-main-ctn img{
-    
+    width:100%;
+    height:100%;
 }
 </style>
