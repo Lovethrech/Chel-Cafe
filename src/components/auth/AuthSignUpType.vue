@@ -7,5 +7,10 @@
 </template>
 
 <style scoped>
+.auth-sign-up-type-main-ctn{
 
+}
+.auth-sign-up-type-main-ctn img{
+    
+}
 </style>
