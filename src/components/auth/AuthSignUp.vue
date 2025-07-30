@@ -31,6 +31,11 @@ import AuthSignUpType from './AuthSignUpType.vue';
     color:#a3a3a3;
     font-size: 14px;
 }
+.auth-signup-mini-ctn{
+    display:flex;
+    justify-content: center;
+    place-items: center;
+}
 .auth-signup-main-ctn-email-type-ctn-desc{
     color:#000000;
     text-decoration-line: underline;
