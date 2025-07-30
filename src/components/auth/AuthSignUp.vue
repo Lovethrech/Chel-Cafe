@@ -8,6 +8,7 @@ import AuthSignUpType from './AuthSignUpType.vue';
         <h3 class="auth-signup-main-ctn-title">
             or sign up using
         </h3>
+        <br/>
         <div class="auth-signup-mini-ctn">
             <AuthSignUpType
                 v-for="authSignUpDetail in authSignUpDetails"
@@ -18,6 +19,7 @@ import AuthSignUpType from './AuthSignUpType.vue';
             >
             </AuthSignUpType>
         </div>
+        <br/>
         <div class="auth-signup-main-ctn-email-type-ctn">
             <a href="" class="auth-signup-main-ctn-email-type-ctn-link">
                 <p class="auth-signup-main-ctn-email-type-ctn-desc">
