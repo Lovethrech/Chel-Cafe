@@ -1,13 +1,13 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {name, link}=defineProps(['name', 'link']);
+const {name, src, link}=defineProps(['name', 'src', 'link']);
 </script>
 
 <template>
     <a href="" class="auth-sign-up-type-main-ctn-link">
         <div class="auth-sign-up-type-main-ctn">
-            <img :src="@/components/Icons/apple.svg" alt="">
+            <img :src="src" alt="">
         </div>
     </a>
 </template>
