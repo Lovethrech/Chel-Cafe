@@ -43,6 +43,7 @@ import AuthSignUpType from './AuthSignUpType.vue';
     display:flex;
     justify-content: center;
     place-items: center;
+    gap:14px;
 }
 .auth-signup-main-ctn-email-type-ctn-desc{
     color:#000000;
