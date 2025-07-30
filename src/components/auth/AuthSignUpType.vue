@@ -5,9 +5,9 @@ const {name, src, link}=defineProps(['name', 'src', 'link']);
 </script>
 
 <template>
-    <a href="" class="auth-sign-up-type-main-ctn-link">
+    <a :href="link" class="auth-sign-up-type-main-ctn-link">
         <div class="auth-sign-up-type-main-ctn">
-            <img :src="src" alt="">
+            <img :src="src" alt="name">
         </div>
     </a>
 </template>
