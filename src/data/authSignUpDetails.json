@@ -15,6 +15,6 @@
         "id":3,
         "name":"google signUp",
         "src":"@/components/Icons/google.svg",
-        "link":""
+        "link":"/"
     }
 ]
