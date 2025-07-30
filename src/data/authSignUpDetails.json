@@ -14,7 +14,7 @@
     {
         "id":3,
         "name":"google signUp",
-        "src":"@/components/Icons/apple.svg",
+        "src":"@/components/Icons/google.svg",
         "link":""
     }
 ]
