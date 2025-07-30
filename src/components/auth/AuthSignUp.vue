@@ -1,4 +1,5 @@
 <script setup>
+import authSignUpDetails from '@/data/authSignUpDetails.json';
 import AuthSignUpType from './AuthSignUpType.vue';
 </script>
 
@@ -8,7 +9,13 @@ import AuthSignUpType from './AuthSignUpType.vue';
             or sign up using
         </h3>
         <div class="auth-signup-mini-ctn">
-            <AuthSignUpType></AuthSignUpType>
+            <AuthSignUpType
+                v-for="authSignUpDetail in authSignUpDetails"
+                :key="authSignUpDetail.id"
+                :name="authSignUpDetail.name"
+                :link="authSignUpDetail.link"
+            >
+            </AuthSignUpType>
         </div>
         <div class="auth-signup-main-ctn-email-type-ctn">
             <a href="" class="auth-signup-main-ctn-email-type-ctn-link">
