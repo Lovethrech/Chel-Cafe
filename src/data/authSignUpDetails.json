@@ -3,13 +3,13 @@
         "id":1,
         "name":"apple signUp",
         "src":"@/components/Icons/apple.svg",
-        "link":""
+        "link":"/"
     },
     {
         "id":2,
         "name":"facebook signUp",
         "src":"@/components/Icons/facebook.svg",
-        "link":""
+        "link":"/"
     },
     {
         "id":3,
