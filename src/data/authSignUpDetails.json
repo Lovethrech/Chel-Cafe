@@ -8,7 +8,7 @@
     {
         "id":2,
         "name":"facebook signUp",
-        "src":"",
+        "src":"@/components/Icons/facebook.svg",
         "link":""
     },
     {
