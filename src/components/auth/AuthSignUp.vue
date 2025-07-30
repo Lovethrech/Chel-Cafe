@@ -13,6 +13,7 @@ import AuthSignUpType from './AuthSignUpType.vue';
                 v-for="authSignUpDetail in authSignUpDetails"
                 :key="authSignUpDetail.id"
                 :name="authSignUpDetail.name"
+                :src="authSignUpDetail.src"
                 :link="authSignUpDetail.link"
             >
             </AuthSignUpType>
