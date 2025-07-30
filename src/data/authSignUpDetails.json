@@ -1,8 +1,8 @@
 [
     {
         "id":1,
-        "name":"",
-        "src":"",
+        "name":"apple signUp",
+        "src":"@/components/Icons/apple.svg",
         "link":""
     },
     {
