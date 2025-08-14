@@ -1,3 +1,3 @@
 <template>
-    .m
+    .ma
 </template>
