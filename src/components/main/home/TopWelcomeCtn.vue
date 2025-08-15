@@ -1,3 +1,3 @@
 <template>
-    .main-t
+    .main-to
 </template>
