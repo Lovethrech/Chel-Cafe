@@ -1,3 +1,3 @@
 <template>
-    .main-top
+    .main-top-
 </template>
