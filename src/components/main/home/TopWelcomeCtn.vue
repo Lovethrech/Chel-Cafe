@@ -1,3 +1,3 @@
 <template>
-    .mai
+    .main
 </template>
