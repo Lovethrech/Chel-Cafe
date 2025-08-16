@@ -1,3 +1,3 @@
 <template>
-    .main-top-welcome-
+    .main-top-welcome-c
 </template>
