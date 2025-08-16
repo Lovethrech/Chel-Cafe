@@ -1,3 +1,3 @@
 <template>
-    .main-top-wel
+    .main-top-welc
 </template>
