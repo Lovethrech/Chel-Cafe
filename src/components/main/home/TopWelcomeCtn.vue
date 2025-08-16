@@ -1,3 +1,3 @@
 <template>
-    .main-top-welcom
+    .main-top-welcome
 </template>
