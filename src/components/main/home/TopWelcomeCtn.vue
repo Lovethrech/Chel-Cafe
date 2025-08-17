@@ -1,3 +1,3 @@
 <template>
-    .main-top-welcome-ctn-main-ct
+    .main-top-welcome-ctn-main-ctn
 </template>
