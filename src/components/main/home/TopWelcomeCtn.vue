@@ -1,5 +1,5 @@
 <template>
     <div class="main-top-welcome-ctn-main-ctn">
-        .main-top-welcome-ctn-mini-c
+        .main-top-welcome-ctn-mini-ct
     </div>
 </template>
