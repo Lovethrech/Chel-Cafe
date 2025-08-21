@@ -8,6 +8,8 @@
 
 <style scoped>
 .main-top-welcome-ctn-main-ctn{
-    background-color: #FFD700;
+    width:100%;
+    height:20vh;
+    background-color: #F7E7CE;
 }
 </style>
