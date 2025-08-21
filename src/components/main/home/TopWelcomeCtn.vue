@@ -14,7 +14,7 @@
     height:20vh;
     background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 80px no-repeat;
     color: #3C2708;
-    padding: 10px 
+    padding: 10px 80px 10px 10px;
 }
 .main-top-welcome-ctn-mini-ctn{
     
