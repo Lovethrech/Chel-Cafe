@@ -17,5 +17,7 @@
     padding: 4px 10px;
     background-color: #3C2708;
     color:#fff;
+    display:flex;
+    justify-content: right;
 }
 </style>
