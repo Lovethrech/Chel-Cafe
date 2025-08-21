@@ -16,6 +16,7 @@ import OrderTab from './nav/OrderTab.vue';
 <style scoped>
 .main-top-welcome-ctn-main-ctn{
     display: flex;
+    flex-direction: column;
     justify-content: left;
     place-items: center;
     width:100%;
