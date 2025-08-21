@@ -24,5 +24,15 @@
     background-color: #3C2708;
     color:#fff;
     font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid #3C2708;
+}
+.main-home-nav-order-tab-main-ctn-desc:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #3C2708;
+    border: 1px solid #3C2708;
+    transform: scale(0.98);
+    transition: all .4s;
 }
 </style>
