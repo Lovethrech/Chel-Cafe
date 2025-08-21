@@ -12,11 +12,14 @@
 <style scoped>
 .main-home-nav-order-tab-main-ctn{
     margin: 0 40px 10px;
-    padding: 4px 10px;
-    background-color: #3C2708;
-    color:#fff;
     width: 100%;
     display:flex;
     justify-content: right;
+}
+.main-home-nav-order-tab-main-ctn-desc{
+    padding: 4px 10px;
+    background-color: #3C2708;
+    color:#fff;
+    font-size: 12px;
 }
 </style>
