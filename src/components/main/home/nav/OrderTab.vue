@@ -7,3 +7,9 @@
         </div>
     </RouterLink>
 </template>
+
+<style scoped>
+.main-home-nav-order-tab-main-ctn{
+    
+}
+</style>
