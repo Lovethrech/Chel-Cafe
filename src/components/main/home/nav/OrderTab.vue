@@ -10,6 +10,7 @@
 
 <style scoped>
 .main-home-nav-order-tab-main-ctn{
-    
+    background-color: #3C2708;
+    color:#fff;
 }
 </style>
