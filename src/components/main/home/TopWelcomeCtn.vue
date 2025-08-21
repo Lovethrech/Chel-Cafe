@@ -25,7 +25,6 @@ import OrderTab from './nav/OrderTab.vue';
 }
 .main-top-welcome-ctn-mini-ctn{
     width: inherit;
-    background-color: red;
     padding:10px 90px 10px 40px;
 }
 .main-top-welcome-ctn-mini-ctn-title{
