@@ -35,4 +35,10 @@
     transform: scale(0.98);
     transition: all .4s;
 }
+
+@media screen and (max-width: 440px) {
+    .main-home-nav-order-tab-main-ctn-desc{
+        
+    }
+}
 </style>

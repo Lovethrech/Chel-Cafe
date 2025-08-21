@@ -35,7 +35,9 @@ import OrderTab from './nav/OrderTab.vue';
 @media screen and (max-width: 440px) {
     .main-top-welcome-ctn-main-ctn{
         background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 50px no-repeat;
-
+    }
+    .main-top-welcome-ctn-mini-ctn{
+        padding:5px 90px 5px 40px;
     }
     .main-top-welcome-ctn-mini-ctn-title{
         font-size: 26px;
