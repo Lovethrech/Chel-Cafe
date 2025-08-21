@@ -10,7 +10,6 @@
 .main-top-welcome-ctn-main-ctn{
     width:100%;
     height:20vh;
-    background-color: #F7E7CE;
-    background-image: ;
+    background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 100px no-repeat
 }
 </style>
