@@ -13,7 +13,7 @@
     width:100%;
 }
 .main-home-nav-order-tab-main-ctn{
-    
+    margin: 0 40px;
     background-color: #3C2708;
     color:#fff;
 }
