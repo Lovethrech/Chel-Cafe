@@ -24,9 +24,12 @@ import OrderTab from './nav/OrderTab.vue';
     color: #3C2708;
 }
 .main-top-welcome-ctn-mini-ctn{
-    margin:10px 90px 10px 40px;
+    width: inherit;
+    background-color: red;
+    padding:10px 90px 10px 40px;
 }
 .main-top-welcome-ctn-mini-ctn-title{
+    text-align: left;
     font-size: 36px;
 }
 </style>
