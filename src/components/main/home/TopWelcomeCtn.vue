@@ -2,7 +2,7 @@
     <div class="main-top-welcome-ctn-main-ctn">
         <div class="main-top-welcome-ctn-mini-ctn">
             <h2 class="main-top-welcome-ctn-mini-ctn-title">
-                Welcome to Chel Brewhouse Brewhouse Brewhouse Brewhouse Brewhouse Brewhouse Brewhouse 
+                Welcome to Chel Brewhouse 
             </h2>
         </div>
     </div>
