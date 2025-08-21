@@ -22,7 +22,9 @@ import OrderTab from './nav/OrderTab.vue';
     width:100%;
     background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 60px no-repeat;
     color: #3C2708;
-    padding: 10px 90px 10px 40px;
+}
+.main-top-welcome-ctn-mini-ctn{
+    margin:10px 90px 10px 40px;
 }
 .main-top-welcome-ctn-mini-ctn-title{
     font-size: 36px;
