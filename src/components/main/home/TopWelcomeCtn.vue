@@ -1,5 +1,5 @@
 <script setup>
-
+import OrderTab from './nav/OrderTab.vue';
 </script>
 
 <template>
@@ -9,6 +9,7 @@
                 Welcome to Chel Brewhouse 
             </h2>
         </div>
+        <OrderTab></OrderTab>
     </div>
 </template>
 
