@@ -11,5 +11,6 @@
     width:100%;
     height:20vh;
     background-color: #F7E7CE;
+    background-image: ;
 }
 </style>
