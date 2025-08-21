@@ -8,6 +8,6 @@
 
 <style scoped>
 .main-top-welcome-ctn-main-ctn{
-    
+    background-color: #FFD700;
 }
 </style>
