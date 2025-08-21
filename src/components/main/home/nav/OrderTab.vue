@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 440px) {
     .main-home-nav-order-tab-main-ctn-desc{
-        
+        font-size: 10px;
     }
 }
 </style>
