@@ -11,10 +11,10 @@
 <style scoped>
 .main-top-welcome-ctn-main-ctn{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     place-items: center;
     width:100%;
-    background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 80px no-repeat;
+    background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 60px no-repeat;
     color: #3C2708;
     padding: 10px 90px 10px 20px;
 }
