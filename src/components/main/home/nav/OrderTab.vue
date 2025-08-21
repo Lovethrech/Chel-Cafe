@@ -11,10 +11,13 @@
 
 <style scoped>
 .main-home-nav-order-tab-main-ctn{
-    margin: 0 40px 10px;
+    margin: 0 40px 5px;
     width: 100%;
     display:flex;
     justify-content: right;
+}
+.link{
+    margin:inherit;
 }
 .main-home-nav-order-tab-main-ctn-desc{
     padding: 4px 10px;
