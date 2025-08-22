@@ -15,7 +15,7 @@ const router = createRouter({
     },
     {
       path: '/orders',
-      na
+      nam
     }
   ]
 })
