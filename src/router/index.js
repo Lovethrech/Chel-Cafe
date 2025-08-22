@@ -15,6 +15,7 @@ const router = createRouter({
     },
     {
       path: '/orders',
+      n
     }
   ]
 })
