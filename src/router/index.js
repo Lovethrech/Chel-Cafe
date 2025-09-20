@@ -16,7 +16,7 @@ const router = createRouter({
     {
       path: '/orders',
       name: 'orders',
-      component: () => import('../views/OrdersView')
+      component: () => import('../views/OrdersView.')
     }
   ]
 })
