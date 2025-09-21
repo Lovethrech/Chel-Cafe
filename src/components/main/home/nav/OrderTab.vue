@@ -1,7 +1,7 @@
 <template>
     
     <div class="main-home-nav-order-tab-main-ctn">
-        <RouterLink to="/or" class="link">
+        <RouterLink to="/ord" class="link">
             <p class="main-home-nav-order-tab-main-ctn-desc">
                 Orders
             </p>
