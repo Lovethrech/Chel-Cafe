@@ -4,7 +4,8 @@
     >
         <RouterLink 
             to="/orders" 
-            class="link">
+            class="link"
+            >
             <p class="main-home-nav-order-tab-main-ctn-desc">
                 Orders
             </p>
