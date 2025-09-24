@@ -11,7 +11,7 @@ import OrderTab from './nav/OrderTab.vue';
         >
             <h2 
                 class="main-top-welcome-ctn-mini-ctn-title"
-                >
+            >
                 Welcome to Chel Brewhouse 
             </h2>
         </div>
