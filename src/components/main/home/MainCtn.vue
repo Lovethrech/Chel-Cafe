@@ -5,7 +5,7 @@ import TopWelcomeCtn from './TopWelcomeCtn.vue';
 <template>
     <div 
         class="main-home-main-ctn"
-        >
+    >
         <TopWelcomeCtn></TopWelcomeCtn>
     </div>
 </template>
