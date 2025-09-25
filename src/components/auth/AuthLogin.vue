@@ -21,7 +21,8 @@ const submitLoginDetails=()=>{
     <div   
         class="auth-login-main-ctn"
     >
-        <h2 class="auth-login-main-ctn-title">
+        <h2 
+        class="auth-login-main-ctn-title">
             Login
         </h2>
         <br/>
