@@ -69,7 +69,8 @@ const submitLoginDetails=()=>{
             <button 
                 @click="submitLoginDetails" 
                 type="submit" 
-                class="auth-login-main-ctn-form-input-and-label-ctn-submit-btn">
+                class="auth-login-main-ctn-form-input-and-label-ctn-submit-btn"
+            >
                 Login
             </button>
         </form>
