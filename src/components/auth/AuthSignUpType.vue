@@ -9,7 +9,8 @@ const {name, src, link}=defineProps(['name', 'src', 'link']);
         :href="link" 
         class="auth-sign-up-type-main-ctn-link"
     >
-        <div class="auth-sign-up-type-main-ctn">
+        <div 
+            class="auth-sign-up-type-main-ctn">
             <img :src="src" :alt="name">
         </div>
     </a>
