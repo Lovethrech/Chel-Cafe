@@ -8,7 +8,8 @@ import AuthSignUpType from './AuthSignUpType.vue';
         class="auth-signup-main-ctn"
     >
         <h3 
-            class="auth-signup-main-ctn-title">
+            class="auth-signup-main-ctn-title"
+        >
             or sign up using
         </h3>
         <br/>
