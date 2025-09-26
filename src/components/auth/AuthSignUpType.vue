@@ -14,7 +14,8 @@ const {name, src, link}=defineProps(['name', 'src', 'link']);
         >
             <img 
                 :src="src" 
-                :alt="name">
+                :alt="name"
+            >
         </div>
     </a>
 </template>
