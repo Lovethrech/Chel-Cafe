@@ -49,7 +49,8 @@ const submitLoginDetails=()=>{
                 />
             </div>
             <br/>
-            <div class="auth-login-main-ctn-form-input-and-label-ctn">
+            <div 
+                class="auth-login-main-ctn-form-input-and-label-ctn">
                 <label 
                     for="password" 
                     class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
