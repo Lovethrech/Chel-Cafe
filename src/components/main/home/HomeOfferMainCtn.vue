@@ -15,7 +15,7 @@
 }
 #home-offer-main-ctn-mini-ctn{
     width: inherit;
-    height:inherit;
+    height: 100%;
     background-color: #122812;
 }
 </style>
