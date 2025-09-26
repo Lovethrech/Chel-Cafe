@@ -33,7 +33,8 @@ import AuthSignUpType from './AuthSignUpType.vue';
                 href="" 
                 class="auth-signup-main-ctn-email-type-ctn-link"
             >
-                <p class="auth-signup-main-ctn-email-type-ctn-desc">
+                <p 
+                    class="auth-signup-main-ctn-email-type-ctn-desc">
                     sign up with email
                 </p>
             </a>
