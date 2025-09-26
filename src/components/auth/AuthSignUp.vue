@@ -14,7 +14,8 @@ import AuthSignUpType from './AuthSignUpType.vue';
         </h3>
         <br/>
         <div 
-            class="auth-signup-mini-ctn">
+            class="auth-signup-mini-ctn"
+        >
             <AuthSignUpType
                 v-for="authSignUpDetail in authSignUpDetails"
                 :key="authSignUpDetail.id"
