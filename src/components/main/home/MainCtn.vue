@@ -8,6 +8,6 @@ import HomeOfferMainCtn from './HomeOfferMainCtn.vue';
         class="main-home-main-ctn"
     >
         <TopWelcomeCtn></TopWelcomeCtn>
-        
+        <HomeOfferMainCtn></HomeOfferMainCtn>
     </div>
 </template>
