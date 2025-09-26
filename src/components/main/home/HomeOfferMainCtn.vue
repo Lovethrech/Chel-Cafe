@@ -1,7 +1,11 @@
+<script setup>
+import HomeOffer from './HomeOffer.vue';
+</script>
+
 <template>
     <section id="home-offer-main-ctn-main-ctn">
         <div id="home-offer-main-ctn-mini-ctn">
-
+            <HomeOffer></HomeOffer>
         </div>
     </section>
 </template>
