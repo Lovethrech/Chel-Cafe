@@ -31,7 +31,7 @@ import OrderTab from './nav/OrderTab.vue';
 }
 .main-top-welcome-ctn-mini-ctn{
     width: inherit;
-    padding:10px 90px 10px 40px;
+    padding:10px 90px 10px 4vw;
 }
 .main-top-welcome-ctn-mini-ctn-title{
     text-align: left;
