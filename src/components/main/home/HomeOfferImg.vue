@@ -3,14 +3,15 @@
         <img 
             src="/public/green-cup-and-mushrooms.svg" 
             alt="Green cup and Mushrooms" 
-            
+            width="100%"
+            height="100%"
         />
     </div>
 </template>
 
 <style scoped>
 .home-offer-img-ctn{
-    width:100vw;
+    width: 90vw;
 
 }
 </style>

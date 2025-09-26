@@ -11,3 +11,11 @@ import HomeOfferBtn from './HomeOfferBtn.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+#home-offer-main-ctn{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+</style>
