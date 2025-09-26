@@ -26,6 +26,7 @@
     margin:inherit;
 }
 .main-home-nav-order-tab-main-ctn-desc{
+    margin-right: 4vw;
     padding: 4px 10px;
     background-color: #3C2708;
     color:#fff;
