@@ -12,7 +12,8 @@ const {name, src, link}=defineProps(['name', 'src', 'link']);
         <div 
             class="auth-sign-up-type-main-ctn"
         >
-            <img :src="src" :alt="name">
+            <img 
+                :src="src" :alt="name">
         </div>
     </a>
 </template>
