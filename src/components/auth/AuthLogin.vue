@@ -32,7 +32,8 @@ const submitLoginDetails=()=>{
             class="auth-login-main-ctn-form" 
             @submit.prevent="submitLoginDetails"
         >
-            <div class="auth-login-main-ctn-form-input-and-label-ctn">
+            <div 
+                class="auth-login-main-ctn-form-input-and-label-ctn">
                 <label 
                     for="email" 
                     class="auth-login-main-ctn-form-input-and-label-ctn-input-ctn-name"
