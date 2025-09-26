@@ -1,5 +1,6 @@
 <script setup>
 import TopWelcomeCtn from './TopWelcomeCtn.vue';
+import HomeOfferMainCtn from './HomeOfferMainCtn.vue';
 </script>
 
 <template>
@@ -7,5 +8,6 @@ import TopWelcomeCtn from './TopWelcomeCtn.vue';
         class="main-home-main-ctn"
     >
         <TopWelcomeCtn></TopWelcomeCtn>
+        
     </div>
 </template>
