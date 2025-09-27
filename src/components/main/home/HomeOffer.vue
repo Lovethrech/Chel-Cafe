@@ -9,7 +9,8 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
 
 <template>
     <div 
-        id="home-offer-main-ctn">
+        id="home-offer-main-ctn"
+    >
         <div id="home-offer-mini-ctn">
             <HomeOfferImg></HomeOfferImg>
             <HomeOfferBtn></HomeOfferBtn>
