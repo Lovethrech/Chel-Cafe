@@ -9,5 +9,9 @@
 </template>
 
 <style scoped>
-
+.home-offer-btn-main-ctn{
+    position: relative;
+    width: 100%;
+    background-color: #1289;
+}
 </style>
