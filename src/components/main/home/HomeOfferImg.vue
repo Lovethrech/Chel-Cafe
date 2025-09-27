@@ -1,7 +1,7 @@
 <template>
     <div class="home-offer-img-ctn">
         <img 
-            src="/public/mike-kenneally-zlwDJoKTuA8-unsplash-scaled 1.svg" 
+            src="/public/Why-Roast-Coffee-scaled 1.svg" 
             alt="Green cup and Mushrooms" 
             width="100%"
             height="100%"
