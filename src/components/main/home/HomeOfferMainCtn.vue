@@ -6,7 +6,10 @@ import HomeOffer from './HomeOffer.vue';
 <template>
     <section id="home-offer-main-ctn-main-ctn">
         <div id="home-offer-main-ctn-mini-ctn">
-            <HomeOffer></HomeOffer>
+            <HomeOffer
+            
+            >
+            </HomeOffer>
         </div>
     </section>
 </template>
