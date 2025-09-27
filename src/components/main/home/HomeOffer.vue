@@ -8,7 +8,8 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
 </script>
 
 <template>
-    <div id="home-offer-main-ctn">
+    <div 
+        id="home-offer-main-ctn">
         <div id="home-offer-mini-ctn">
             <HomeOfferImg></HomeOfferImg>
             <HomeOfferBtn></HomeOfferBtn>
