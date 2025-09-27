@@ -5,9 +5,15 @@ const {link}= defineProps(['link']);
 </script>
 
 <template>
-    <div class="home-offer-btn-main-ctn">
-        <RouterLink :to="link">
-            <button class="home-offer-main-btn">
+    <div 
+        class="home-offer-btn-main-ctn"
+    >
+        <RouterLink 
+            :to="link"
+        >
+            <button 
+                class="home-offer-main-btn"
+            >
                 View offers
             </button>
         </RouterLink>
