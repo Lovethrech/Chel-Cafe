@@ -6,7 +6,7 @@ const {link}= defineProps(['link']);
 
 <template>
     <div class="home-offer-btn-main-ctn">
-        <RouterLink to="">
+        <RouterLink :to="link">
             <button class="home-offer-main-btn">
                 View offers
             </button>
