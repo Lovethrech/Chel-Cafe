@@ -4,10 +4,18 @@ import HomeOffer from './HomeOffer.vue';
 </script>
 
 <template>
-    <section id="home-offer-main-ctn-main-ctn">
-        <div id="home-offer-main-ctn-mini-ctn">
+    <section 
+        id="home-offer-main-ctn-main-ctn"
+    >
+        <div 
+            id="home-offer-main-ctn-mini-ctn"
+        >
             <HomeOffer
-            
+                v-for="HomeOfferDetail in HomeOfferDetails"
+                :key="HomeOfferDetail.id"
+                :name="HomeOfferDetail.name"
+                :imgSrc="HomeOfferDetail.imgSrc"
+                :link="HomeOfferDetail.link"
             >
             </HomeOffer>
         </div>
