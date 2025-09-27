@@ -11,7 +11,8 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
     <div 
         id="home-offer-main-ctn"
     >
-        <div id="home-offer-mini-ctn">
+        <div 
+            id="home-offer-mini-ctn">
             <HomeOfferImg></HomeOfferImg>
             <HomeOfferBtn></HomeOfferBtn>
         </div>
