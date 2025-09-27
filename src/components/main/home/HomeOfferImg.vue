@@ -11,7 +11,6 @@
 
 <style scoped>
 .home-offer-img-ctn{
-    width: 90vw;
-    height: 30vh;
+    background-color: #fff;
 }
 </style>
