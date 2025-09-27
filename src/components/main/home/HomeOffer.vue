@@ -4,7 +4,7 @@ import { defineProps } from 'vue';
 import HomeOfferImg from './HomeOfferImg.vue';
 import HomeOfferBtn from './HomeOfferBtn.vue';
 
-const {name, imgSrc, link}=
+const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
 </script>
 
 <template>
