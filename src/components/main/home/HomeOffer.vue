@@ -1,4 +1,5 @@
 <script setup>
+import { defineProps } from 'vue';
 import HomeOfferImg from './HomeOfferImg.vue';
 import HomeOfferBtn from './HomeOfferBtn.vue';
 </script>
