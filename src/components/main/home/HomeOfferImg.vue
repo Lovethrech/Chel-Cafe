@@ -1,5 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
+
+const {name, imgSrc}= defineProps()
 </script>
 
 <template>
