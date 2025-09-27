@@ -1,3 +1,7 @@
+<script setup>
+import { defineProps } from 'vue';
+</script>
+
 <template>
     <div class="home-offer-btn-main-ctn">
         <RouterLink to="">
