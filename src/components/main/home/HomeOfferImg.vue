@@ -12,5 +12,6 @@
 <style scoped>
 .home-offer-img-ctn{
     background-color: #fff;
+    width:300px;
 }
 </style>
