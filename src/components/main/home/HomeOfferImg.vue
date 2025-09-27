@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {name, imgSrc}= defineProps()
+const {name, imgSrc}= defineProps(['name', 'imgSrc']);
 </script>
 
 <template>
