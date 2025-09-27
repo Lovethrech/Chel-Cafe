@@ -1,4 +1,5 @@
 <script setup>
+import HomeOfferDetails from "@/data/home-offer-details.json";
 import HomeOffer from './HomeOffer.vue';
 </script>
 
