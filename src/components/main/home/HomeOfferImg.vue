@@ -8,7 +8,7 @@ const {name, imgSrc}= defineProps(['name', 'imgSrc']);
     <div class="home-offer-img-ctn">
         <img 
             :src="imgSrc" 
-            :alt="" 
+            :alt="name" 
             width="100%"
             height="100%"
         />
