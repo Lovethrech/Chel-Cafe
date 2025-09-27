@@ -7,7 +7,7 @@ const {name, imgSrc}= defineProps(['name', 'imgSrc']);
 <template>
     <div class="home-offer-img-ctn">
         <img 
-            src="/public/green-cup-and-mushrooms.svg" 
+            :src="imgSrc" 
             alt="Green cup and Mushrooms" 
             width="100%"
             height="100%"
