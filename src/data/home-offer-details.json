@@ -16,5 +16,11 @@
         "name":"Why roast coffee",
         "imgSrc": "/Why-Roast-Coffee-scaled 1.svg",
         "link":"/orders"
+    },
+    {
+        "id":"3",
+        "name":"Why roast coffee",
+        "imgSrc": "/Why-Roast-Coffee-scaled 1.svg",
+        "link":"/orders"
     }
 ]
