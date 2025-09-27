@@ -8,13 +8,13 @@
     {
         "id":"2",
         "name":"White coffee and cup",
-        "imgSrc": "/mike-kenneally-zlwDJoKTuA8-unsplash-scaled 1.svg",
+        "imgSrc": "/mike-kenneally-zlwDJoKTuA8-unsplash-scaled.svg",
         "link":"/orders"
     },
     {
         "id":"3",
         "name":"Why roast coffee",
-        "imgSrc": "/Why-Roast-Coffee-scaled 1.svg",
+        "imgSrc": "/Why-Roast-Coffee-scaled.svg",
         "link":"/orders"
     },
     {
