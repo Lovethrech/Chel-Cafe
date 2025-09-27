@@ -20,7 +20,7 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
             >
             </HomeOfferImg>
             <HomeOfferBtn
-
+                :link="link"
             >
             </HomeOfferBtn>
         </div>
