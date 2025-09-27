@@ -16,7 +16,7 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
         >
             <HomeOfferImg
                 :imgSrc="imgSrc"
-                
+                :name="name"
             >
             </HomeOfferImg>
             <HomeOfferBtn
