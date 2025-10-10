@@ -3,6 +3,8 @@ import { defineProps } from 'vue';
 
 const {name, imgSrc}= defineProps(['name', 'imgSrc']);
 // plan to work on side nav with respect to mobile bottom nav 
+
+// teach me "green computing" as if i only have a day. Focus on the most important concepts and practical  takeaways.
 </script>
 
 <template>
