@@ -8,7 +8,7 @@ import LoadPageText from './LoadPageText.vue';
     >
         <div 
             class="load-page-mini-ctn"
-            >
+        >
             <LoadPageText></LoadPageText>
         </div>
     </div>
