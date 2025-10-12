@@ -6,7 +6,8 @@
             class="load-page-text-main-ctn-header"
         >
             Chel
-            <br/>Cafe
+            <br/>
+            Cafe
         </h1>
     </div>
 </template>
