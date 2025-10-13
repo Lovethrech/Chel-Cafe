@@ -21,6 +21,7 @@ onUnmounted(() => {
       v-if="showComponent"
     >
     </LoadPage>
-    <Auth v-else></Auth>
+    <Auth 
+    v-else></Auth>
   </main>
 </template>
