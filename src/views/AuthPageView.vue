@@ -20,7 +20,7 @@ onUnmounted(() => {
     <LoadPage 
       v-if="showComponent"
     >
-  </LoadPage>
+    </LoadPage>
     <Auth v-else></Auth>
   </main>
 </template>
