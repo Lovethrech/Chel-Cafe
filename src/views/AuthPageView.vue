@@ -22,6 +22,6 @@ onUnmounted(() => {
     >
     </LoadPage>
     <Auth 
-    v-else></Auth>
+      v-else></Auth>
   </main>
 </template>
