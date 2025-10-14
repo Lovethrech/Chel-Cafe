@@ -24,6 +24,6 @@ onUnmounted(() => {
     <Auth 
       v-else
     >
-  </Auth>
+    </Auth>
   </main>
 </template>
