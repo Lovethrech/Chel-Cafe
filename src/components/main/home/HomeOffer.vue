@@ -29,10 +29,12 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
 
 <style scoped>
 #home-offer-main-ctn{
+    margin: 10px 0;
     display: flex;
     justify-content: center;
     place-items: center;
     background-color: red;
-    width:700px;
+    width: 40%;
+    min-height: 30vh;
 }
 </style>
