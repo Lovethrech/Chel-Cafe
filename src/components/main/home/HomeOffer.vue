@@ -32,5 +32,7 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
     display: flex;
     justify-content: center;
     place-items: center;
+    background-color: red;
+    width:700px;
 }
 </style>
