@@ -19,6 +19,6 @@ const {name, imgSrc}= defineProps(['name', 'imgSrc']);
 <style scoped>
 .home-offer-img-ctn{
     background-color: #fff;
-    width:700px;
+    width: 40%;
 }
 </style>
