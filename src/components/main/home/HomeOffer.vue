@@ -14,11 +14,11 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
         <div 
             id="home-offer-mini-ctn"
         >
-            <HomeOfferImg
+            <!-- <HomeOfferImg
                 :imgSrc="imgSrc"
                 :name="name"
             >
-            </HomeOfferImg>
+            </HomeOfferImg> -->
             <HomeOfferBtn
                 :link="link"
             >
