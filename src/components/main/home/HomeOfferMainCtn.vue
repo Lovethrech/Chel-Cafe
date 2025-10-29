@@ -35,6 +35,6 @@ import HomeOffer from './HomeOffer.vue';
     background-color: #122812;
     display: flex;
     flex-direction:row;
-    
+    gap:2px;
 }
 </style>
