@@ -30,6 +30,7 @@ import HomeOffer from './HomeOffer.vue';
     background-color: #234523;
 }
 #home-offer-main-ctn-mini-ctn{
+    width: 100%;
     height: 100%;
     background-color: #122812;
     display: flex;
