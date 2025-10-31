@@ -37,4 +37,7 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
     width: 48%;
     min-height: 30vh;
 }
+#home-offer-mini-ctn{
+    
+}
 </style>
