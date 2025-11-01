@@ -20,5 +20,6 @@ const {name, imgSrc}= defineProps(['name', 'imgSrc']);
 .home-offer-img-ctn{
     background-color: #fff;
     width: 100%;
+    height: 100%;
 }
 </style>
