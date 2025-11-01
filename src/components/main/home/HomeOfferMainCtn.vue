@@ -27,7 +27,6 @@ import HomeOffer from './HomeOffer.vue';
     padding:2vh 4vw;
     width: 100%;
     min-height:90vh;
-    background-color: #234523;
 }
 #home-offer-main-ctn-mini-ctn{
     width: 100%;
