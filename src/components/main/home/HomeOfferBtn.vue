@@ -25,5 +25,6 @@ const {link}= defineProps(['link']);
     height: 10%;
     margin-bottom: -20px;
     background-color: #1289;
+    padding: 20px;
 }
 </style>
