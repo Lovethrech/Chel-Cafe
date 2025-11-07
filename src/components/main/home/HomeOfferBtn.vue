@@ -24,7 +24,7 @@ const {link}= defineProps(['link']);
 .home-offer-btn-main-ctn{
     width: 100%;
     height: 10%;
-    margin-bottom: -20px;
+    
     background-color: #1289;
     
 }
