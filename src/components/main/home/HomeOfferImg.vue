@@ -11,7 +11,7 @@ const {name, imgSrc}= defineProps(['name', 'imgSrc']);
             :src="imgSrc" 
             :alt="name" 
             width="100%"
-            height=""
+            height="100%"
         />
     </div>
 </template>
