@@ -34,7 +34,7 @@ const {name, imgSrc, link}=defineProps(['name', 'imgSrc', 'link']);
     justify-content: center;
     place-items: center;
     background-color: red;
-    width: 48%;
+    width: 25%;
     min-height: 30vh;
 }
 #home-offer-mini-ctn{
