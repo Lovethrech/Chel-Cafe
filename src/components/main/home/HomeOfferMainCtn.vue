@@ -33,5 +33,8 @@ import HomeOffer from './HomeOffer.vue';
     width: 100%;
     height: 100%;
     background-color: #122812;
+    display: flex;
+    flex-direction:row;
+    
 }
 </style>
