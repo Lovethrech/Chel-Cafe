@@ -26,7 +26,7 @@ import OrderTab from './nav/OrderTab.vue';
     justify-content: left;
     place-items: center;
     width:100%;
-    background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 6 no-repeat;
+    background:  url(/LoadPageTopLeaf.png) #F7E7CE top right / 6vh no-repeat;
     color: #3C2708;
 }
 .main-top-welcome-ctn-mini-ctn{
