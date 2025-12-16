@@ -35,7 +35,7 @@ import OrderTab from './nav/OrderTab.vue';
 }
 .main-top-welcome-ctn-mini-ctn-title{
     text-align: left;
-    font-size: vh;
+    font-size: 4vh;
 }
 
 @media screen and (max-width: 440px) {
