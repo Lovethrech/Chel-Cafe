@@ -18,7 +18,7 @@
 <style scoped>
 .main-home-nav-order-tab-main-ctn{
     background-color: lavender;
-    margin: 0 4vh 5p;
+    margin: 0 4vh 5;
     width: 100%;
     display:flex;
     justify-content: right;
