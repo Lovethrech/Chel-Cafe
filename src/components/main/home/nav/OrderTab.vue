@@ -28,7 +28,7 @@
 }
 .main-home-nav-order-tab-main-ctn-desc{
     margin-right: 3vw;
-    margin: aut
+    margin: autoo
     padding: 1vh 4vh;
     background-color: #3C2708;
     color:#fff;
