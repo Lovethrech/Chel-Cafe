@@ -31,7 +31,7 @@
     padding: 1vh 4vh;
     background-color: #3C2708;
     color:#fff;
-    font-size: 2vh;
+    font-size: vh;
     border-radius: 20px;
     border: 1px solid #3C2708;
 }
